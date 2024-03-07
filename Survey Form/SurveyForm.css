@@ -1,0 +1,45 @@
+label {
+  display: block;
+  padding: 5px;
+  color: white;
+  font-family: Tahoma;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+body {
+  background-color: #3f7c6b;
+}
+
+h1, p {
+  color: white;
+  text-align: center;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+fieldset {
+  border-left: none;
+  border-right: none;
+  margin-top:  5px solid black;
+}
+
+fieldset:last-of-type {
+  border: none;
+}
+
+form {
+  max-width: 500px;
+  min-width: 300px;
+  width: 60 vw;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  height: 30px;
+  width: 60px;
+  margin-top: 25px;
+  margin-left: 10px;
+}

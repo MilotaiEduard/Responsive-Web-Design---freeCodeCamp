@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html leng="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="SurveyForm.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <h1 id="title">Survey Form</h1>
+
+  <p id="description">Please complete the followings:</p>
+
+
+  <form id="survey-form" action="https:https://www.freecodecamp.org/">
+
+<fielset>
+    <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="Enter your name"/></label>
+
+    <label id="email-label">Enter your email: <input id="email" type="mail" required placeholder="Enter your email"/></label>
+
+    <label id="number-label">Enter your age: <input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+</fieldset>
+
+    <fieldset>
+    <label>How did you heard about us?
+    <select id="dropdown">
+      <option>(choose an option)</option>
+      <option>Facebook</option>
+      <option>Instagram</option>
+      <option>TikTok</option>
+      <option>Youtube</option>
+      <option>Other</option>
+    </select>
+    </label>
+
+    <label>Select your gender:</label>
+    <label>Male<input type="radio" name="gender"></label>
+    <label>Female<input type="radio" name="gender"></label>
+    <label>Other<input type="radio" name="gender"></label>
+
+      <label>I agree with the politics.<input type="checkbox" value="politics" required> </label>
+      <label>I agree with the terms and conditions.<input type="checkbox" value="terms-and-conditions" required></label>
+</fieldset>
+
+<label>Provide a bio:</label>
+  <textarea placeholder="I like to..."></textarea>
+
+<div>
+  <input type="submit" id="submit">
+<div>
+
+  </form>
+</body>
+  </html>

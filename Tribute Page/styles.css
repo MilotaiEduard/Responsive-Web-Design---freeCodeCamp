@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1A1A1A;
+    color: #b1e4f5;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#tribute-navbar {
+    border-bottom: 1px solid #b1e4f5;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #b1e4f5;
+    padding: 10px 15px;
+}
+
+.navbar li a:hover {
+    color: #2abff0;
+}
+
+#title, p {
+    text-align: center;
+}
+
+#title {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 22px;
+    margin-top: -20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #b1e4f5;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+hr {
+    border: 1px solid #b1e4f5;
+}
+
+h2{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#tribute-info p {
+    margin: 30px 40px;
+}
+
+#tribute-link {
+    color:#b1e4f5;
+}
+
+#tribute-link:hover {
+    color: #6AA9D6;
+}
+
+#tribute-link:visited {
+    color: #D0A9F5;
+}
+
+#tribute-link:active {
+    color: #FFD700;
+}
+
+#tribute-inventions {
+    margin-top: 80px;
+}
+
+.img-inventions {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-inventions img {
+    border-radius: 15px;
+    border: 2px solid #b1e4f5;
+}
+
+.img-inventions figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#tribute-timeline {
+    margin-bottom: 50px;
+}
+
+#tribute-timeline li {
+    margin-top: 25px;
+    font-size: 22px;
+}
